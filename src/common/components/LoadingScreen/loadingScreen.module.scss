@@ -1,0 +1,30 @@
+@import "../../../themes/_mixins.scss";
+
+.loadingWrapper {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  color: white;
+  background: #874466;
+  font-size: 7rem;
+  font-weight: 600;
+  //   animation: fade 0.3s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
