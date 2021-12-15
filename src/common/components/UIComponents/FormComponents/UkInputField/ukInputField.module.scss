@@ -1,0 +1,26 @@
+@import "/src/themes/mixins.scss";
+
+.outerWrapper {
+  padding: 0 0.5rem;
+  .inputWrapper {
+    position: relative;
+    .input {
+      padding: 1rem 1.5rem;
+      border: thin solid gray;
+      border-radius: 0.5rem;
+      transition: 0.3s ease-in-out;
+      outline: none;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: rgb(54, 54, 54);
+      &:hover {
+        border: 1px solid #4a4cf6;
+        background: #4a4df625;
+      }
+      &:focus {
+        @include focus;
+        background: #4a4df625;
+      }
+    }
+  }
+}

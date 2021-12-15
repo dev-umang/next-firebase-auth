@@ -13,6 +13,10 @@
 .formWrapper {
   @include flex-row(center, center);
   .formContainer {
-    width: 70%;
+    width: 340px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
   }
 }

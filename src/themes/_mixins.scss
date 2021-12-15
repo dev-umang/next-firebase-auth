@@ -4,3 +4,9 @@
   align-items: $align;
 }
 
+@mixin focus {
+  border: 1px solid #9413fd;
+  box-shadow: 1px 1px 6px #4a4df67c, 1px -1px 6px #1518c7bd,
+    -1px 1px 6px #4a4df68a, -1px -1px 6px #1f2ce077;
+  // color: #5c05a3;
+}
